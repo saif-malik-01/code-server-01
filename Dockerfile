@@ -30,7 +30,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 
 # Install NodeJS
 
-RUN sudo apt install default-jdk
+RUN sudo apt install default-jdk -y
 
 # Install a VS Code extension:
 # Note: we use a different marketplace than VS Code. See https://github.com/cdr/code-server/blob/main/docs/FAQ.md#differences-compared-to-vs-code
